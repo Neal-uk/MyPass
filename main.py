@@ -94,7 +94,7 @@ website_entry.grid(row=1, column=1, columnspan=2)
 website_entry.focus() # focus the cursor on this entry upon app starting
 email_entry = Entry(width=50)
 email_entry.grid(row=2, column=1, columnspan=2)
-email_entry.insert(0, "nealinnewyork@hotmail.com")
+email_entry.insert(0, "email@hotmail.com")
 password_entry = Entry(width=32)
 password_entry.grid(row=3, column=1)
 
